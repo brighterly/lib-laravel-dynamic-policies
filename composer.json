@@ -1,0 +1,25 @@
+{
+    "name": "brighterly/laravel-dynamic-policies",
+    "description": "Namespace-scoped Laravel policies per route group via setPolicies() macro",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.3",
+        "illuminate/routing": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brighterly\\LaravelPolicies\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Brighterly\\LaravelPolicies\\PoliciesServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

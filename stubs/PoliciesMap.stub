@@ -1,0 +1,15 @@
+<?php
+
+declare(strict_types=1);
+
+namespace App\Policies\Contracts;
+
+use Brighterly\LaravelPolicies\Contracts\PoliciesMap as BasePoliciesMap;
+
+interface PoliciesMap extends BasePoliciesMap
+{
+    /**
+     * @var array<class-string, class-string>
+     */
+    public const array POLICIES_MAPPING = [];
+}
