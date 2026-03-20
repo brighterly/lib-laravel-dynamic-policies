@@ -91,8 +91,11 @@ Gate::authorize('view', $booking);
 // or in Blade
 @can('update', $booking)
 ```
-
 The correct policy class is resolved based on which route group handled the request.
+
+## PhpStorm plugin
+
+For the best experience you can use this plugin [Custom Policy Navigator PhpStorm plugin](https://plugins.jetbrains.com/plugin/30763-laravel-custom-policy-navigator)
 
 ## How it works
 
